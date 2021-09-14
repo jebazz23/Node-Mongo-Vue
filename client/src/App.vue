@@ -12,7 +12,7 @@
 <script>  
 import {mapGetters} from 'vuex';
 import Navbar from "@/components/Navbar";
-import Errors from "@/components/Errors";
+import Errors from "@/components/Errors"; 
 export default {
     components: {
       Navbar,

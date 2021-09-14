@@ -37,15 +37,13 @@ mongoose.connect(db, {
     console.log(`Unable to connect with the database ${err}`)
 });
 
-
-// app.get('/', (req, res) => {
-//    return res.send('<H1>Hello World</H1>')
-// })
-
 // Bring in the Users route
 const users = require('./app/routes/api/users');
 app.use('/api/users', users);
 
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/index.html'));
+})
 
 const PORT = process.env.PORT || 5000
 

@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-    <Navbar />
+    <Navbar/>
+    <br>
+    <br>
     <div class="container">
       <router-view/>
     </div>
-
   </div>
 </template>
 <script>  
@@ -17,5 +18,10 @@ export default {
 </script>
 
 <style>
-
+.card {
+  border-radius: 0px;
+}
+.btn {
+  border-radius: 0px;
+}
 </style>

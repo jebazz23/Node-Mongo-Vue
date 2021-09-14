@@ -2,10 +2,10 @@
   <div class="home">
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">MEVN Stack</h1>
+        <h1 class="display-4">Plasdan - Documentacao Ensaios</h1>
         <p
           class="lead"
-        >Simple authentication application built with MEVN Stack using Express, Node.js, Vue.js and MongoDB by Codebook Inc.</p>
+        >A preview of plasdan machine documets app with authentication using Express, Node.js, Vue.js and MongoDB based on information of Codebook Inc.</p>
       </div>
     </div>
     <div class="row">
@@ -48,7 +48,7 @@
             <h5 class="card-title">Node.js</h5>
             <p
               class="card-text"
-            >As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. In the following "hello world" example, many connections can be handled concurrently.</p>
+            >As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. In the following "hello world" example, many connections can be handled concurrently. <br><br></p>
             <a href="https://nodejs.org/" target="_blank" class="btn bg-white">More Info.</a>
           </div>
         </div>

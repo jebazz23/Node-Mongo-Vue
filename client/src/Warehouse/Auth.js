@@ -73,6 +73,11 @@ const mutations = {
     },
     register_success(state) {
         state.status = 'success'
+    },
+    logout(state) {
+        state.status = '',
+        state.token = '',
+        state.user = ''
     }
 
 
